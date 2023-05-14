@@ -22,8 +22,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:400,700' },
-      { rel: 'stylesheet', href: '@fortawesome/fontawesome-free/css/all.css' },
-      { rel: 'stylesheet', href: '@mdi/font/css/materialdesignicons.css' }
 
     ]
   },
