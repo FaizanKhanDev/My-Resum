@@ -8,7 +8,7 @@ export default {
   head: {
     titleTemplate: '%s - MyCv',
 
-    title: 'MyCv',
+    title: 'Faizan Khan',
     htmlAttrs: {
       lang: 'en'
     },
