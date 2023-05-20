@@ -1,149 +1,14 @@
 <template>
   <div class="container">
-    <section class="section_left">
-      <center>
-        <img
-          :src="require('~/assets/images/MyPics.jpeg')"
-          alt="AUTHOR"
-          class="author__picture"
-        />
-        <h1 class="title">Faizan Khan</h1>
-      </center>
-      <h5 class="sub-title">Contact</h5>
-      <ul>
-        <li>
-          <span class="mdi mdi-phone"></span>
-          +92 316-2177746
-        </li>
-        <li>
-          <span class="mdi mdi-email-check-outline"></span>
-          faizan480khan@gmail.com
-        </li>
-        <li>
-          <span class="mdi mdi-search-web"></span>
-          <a href="https://faizankhandev.netlify.app/" class="portfolio"
-            >Visit to My Portfolio</a
-          >
-        </li>
-      </ul>
-      <h5 class="sub-title">Education</h5>
-      <em>Average</em>
-      <p>Matric, 2018 - 2020</p>
-      <em>Higher</em>
-      <p>Intermediate, 2020 - 2023 (Appeared)</p>
-
-      <h5 class="sub-title">languages</h5>
-      <label>Urdu</label>
-      <div class="progress_container">
-        <div class="progress_bar" style="width: 80%"></div>
-      </div>
-      <label>Pashto</label>
-      <div class="progress_container">
-        <div class="progress_bar" style="width: 80%"></div>
-      </div>
-      <label>English</label>
-      <div class="progress_container">
-        <div class="progress_bar" style="width: 30%"></div>
-      </div>
-    </section>
-    <section class="section_right">
-      <h1 class="title">About Me</h1>
-      <p>Hi, I am Faizan</p>
-      <p>Web Developer</p>
-      <p>
-        High level experience in web design and development knowledge, producing
-        quality work.
-      </p>
-      <p>
-        Web developer, with extensive knowledge and years of experience, working
-        in web technologies and delivering quality work.
-      </p>
-      <h1 class="title">Experience</h1>
-      <h5 class="sub-title">Development</h5>
-      <p>01+ Year Experience in Web Development.</p>
-      <h1 class="title">Professional skills</h1>
-      <table>
-        <tr>
-          <td>HTML 5 & CSS 3 / BootStrap</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 70%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>JavaScript</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 60%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>Vue/Nuxt Js</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 45%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>Vuetify</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 40%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>Node/Express Js</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 30%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>Python/Django</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 43%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>MySql/PostgreSql/Mongo DB</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 5%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>Hasura/GraphQL</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 5%"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>Git/GitHub</td>
-          <td>
-            <div class="progress_container">
-              <div class="progress_bar" style="width: 35%"></div>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </section>
+    <NameFaizanKhan />
+    <AboutMe />
   </div>
 </template>
-<style scoped>
+<style>
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+
 * {
   font-family: "Lato", sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
 }
 *,
 html {
@@ -318,7 +183,14 @@ img {
 }
 </style>
 <script>
+import NameFaizanKhanVue from "../components/NameFaizanKhan.vue";
+import AboutMe from "../components/AboutMe.vue";
+
 export default {
   name: "IndexPage",
+  components: {
+    NameFaizanKhanVue,
+    AboutMe,
+  },
 };
 </script>
