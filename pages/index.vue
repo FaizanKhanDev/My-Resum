@@ -61,11 +61,6 @@
       <h1 class="title">Experience</h1>
       <h5 class="sub-title">Development</h5>
       <p>01+ Year Experience in Web Development.</p>
-      <!-- <em style="float: right">сентябрь, 2022</em>
-      <h5 class="sub-title">Учитель начальных классов</h5> -->
-      <!-- <p>МОУ «СОШ №38»</p>
-      <em style="float: right">январь, 2023</em> -->
-
       <h1 class="title">Professional skills</h1>
       <table>
         <tr>
@@ -113,6 +108,22 @@
           <td>
             <div class="progress_container">
               <div class="progress_bar" style="width: 43%"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>MySql/PostgreSql/Mongo DB</td>
+          <td>
+            <div class="progress_container">
+              <div class="progress_bar" style="width: 5%"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Hasura/GraphQL</td>
+          <td>
+            <div class="progress_container">
+              <div class="progress_bar" style="width: 5%"></div>
             </div>
           </td>
         </tr>
